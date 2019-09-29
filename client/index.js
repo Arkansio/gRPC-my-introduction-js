@@ -6,7 +6,7 @@ const client = new NoteService('localhost:50051', grpc.credentials.createInsecur
 
 const newNote = {
     title: "new note",
-    content: "beautiful"
+    content: "beautsiful"
 }
 
 function list() {
